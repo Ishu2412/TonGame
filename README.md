@@ -1,88 +1,54 @@
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/gamics)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/gamics?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/gamics?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/VJKx9uLEpaU?style=social)](https://youtu.be/VJKx9uLEpaU)
 
-<h1 align="center">
-  <b>React-Projects</b>
-</h1>
+  <br />
+  <br />
 
-<p align="center">
-   <a href="https://github.com/No0ne003/React-Project/stargazers"><img src="https://img.shields.io/github/stars/No0ne003/React-Project?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-  <a href="https://github.com/No0ne003/React-Project/commits/"><img src="https://img.shields.io/github/last-commit/No0ne003/React-Project?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-  <img src='https://img.shields.io/github/languages/top/No0ne003/React-Project?style=for-the-badge&labelColor=363a4f&color=b7bdf8'>
-</p>
-<p align="center">
-  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"></a>
-  <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
-  <a href="https://vitejs.dev/"><img src='https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white'></a>
-</p>
+  <h2 align="center">Gamics - Gaming website</h2>
 
-Welcome to the **React-Projects** repository! This project is a collection of React applications bundled together using Vite, styled with Tailwind CSS, and enhanced with UI components from ui.shadcn. It's a powerful and flexible setup that allows you to manage and deploy multiple React projects within a single application.
+  Gamics is a fully responsive gaming website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-## Table of Contents
+  <a href="https://codewithsadee.github.io/gamics/"><strong>➥ Live Demo</strong></a>
 
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
+</div>
 
-## Getting Started
+<br />
 
-Follow these instructions to get the project up and running on your local machine.
+### Demo Screeshots
 
-1. **Clone the repository:**
+![Gamics Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
-   ```bash
-   git clone https://github.com/No0ne003/React-Projects.git
-   ```
+### Prerequisites
 
-2. **Install dependencies:**
+Before you begin, ensure you have met the following requirements:
 
-   ```bash
-   npm install
-   ```
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-3. **Run the development server:**
+### Run Locally
 
-   ```bash
-   npm run dev
-   ```
+To run **Gamics** locally, run this command on your git bash:
 
-   This will start the development server, and you can access the application at `http://localhost:5173/React-Projects/`.
+Linux and macOS:
 
-## Contributing
+```bash
+sudo git clone https://github.com/codewithsadee/gamics.git
+```
 
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+Windows:
 
-### How to Contribute
+```bash
+git clone https://github.com/codewithsadee/gamics.git
+```
 
-1. **Create a folder for your project:**
-   - Navigate to the `/src/pages/` directory.
-   - Create a new folder named after your project.
+### Contact
 
-2. **Develop your project within the new folder.**
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
 
-3. **Add project details to `src/data/project.js`:**
-   ```js
-   {
-     id: {unique_id},
-     name: {project_name},
-     path: {project_path},
-     tags: ['{tags}']
-   }
-   // Example:
-   {
-     id: 19,
-     name: 'Weather App',
-     path: 'weather-app',
-     tags: ['project']
-   }
-   ```
+### License
 
-4. **Update routing in `app.jsx`:**
-   - Import your project file using React's `lazy` function:
-     ```js
-     const WeatherApp = lazy(() => import("@/pages/Weather-app/index"));
-     ```
-   - Create a route for your project:
-     ```js
-     <Route path="weather-app" element={<WeatherApp />} />
-     ```
-     Ensure the `path` matches the one specified in `project.js`.
-
-Thank you for contributing!
+This project is **free to use** and does not contains any license.
